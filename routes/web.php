@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/equipamentos', 'EquipamentosController@index')->name('equipamentos_home');
+
+Route::get('/equipamentos/criar', 'EquipamentosController@create')->name('criar_equipamento');
+
+Route::post('/equipamentos/criar', 'EquipamentosController@store');
+
+Route::get('/equipamentos/exibir/{id_equipamento}', 'EquipamentosController@show')->name('exibir_equipamento');
+
+Route::get('/equipamentos/atualizar/{id_equipamento}', 'EquipamentosController@edit')->name('form_editar_equipamento');
+
+Route::put('/equipamentos/atualizar/{id_equipamento}', 'EquipamentosController@update')->name('atualizar_equipamento');
+
+Route::delete('/equipamentos/excluir/{id_equipamento}', 'EquipamentosController@destroy');
