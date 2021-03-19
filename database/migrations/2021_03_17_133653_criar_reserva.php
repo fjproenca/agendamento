@@ -19,7 +19,7 @@ class CriarReserva extends Migration
             $table->bigIncrements('id_reserva');            
             $table->string('nome_atividade');
             $table->string('nome_solicitante');
-            $table->string('e-mail');
+            $table->string('email');
             $table->string('telefone');
             $table->string('departamento');
             $table->string('descricao_atividade');

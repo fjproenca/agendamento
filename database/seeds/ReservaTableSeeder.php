@@ -16,7 +16,7 @@ class ReservaTableSeeder extends Seeder
                 
                 'nome_atividade' => 'atividade 1',
                 'nome_solicitante' => 'Marcelo',
-                'e-mail' => 'marcelo@',
+                'email' => 'marcelo@',
                 'telefone' => '00000000000',
                 'departamento' => 'DCC',
                 'descricao_atividade' => 'DCC',
@@ -31,7 +31,7 @@ class ReservaTableSeeder extends Seeder
                 
                 'nome_atividade' => 'atividade 2',
                 'nome_solicitante' => 'Marcelo 2',
-                'e-mail' => 'marcelo2@',
+                'email' => 'marcelo2@',
                 'telefone' => '00000000000',
                 'departamento' => 'DCC 2',
                 'descricao_atividade' => 'DCC 2',
@@ -46,7 +46,7 @@ class ReservaTableSeeder extends Seeder
                 
                 'nome_atividade' => 'atividade 3',
                 'nome_solicitante' => 'Marcelo3',
-                'e-mail' => 'marcelo3@',
+                'email' => 'marcelo3@',
                 'telefone' => '00000000000',
                 'departamento' => 'DCC',
                 'descricao_atividade' => 'DCC',
@@ -61,7 +61,7 @@ class ReservaTableSeeder extends Seeder
                 
                 'nome_atividade' => 'atividade 4',
                 'nome_solicitante' => 'Marcelo4',
-                'e-mail' => 'marcelo4@',
+                'email' => 'marcelo4@',
                 'telefone' => '00000000000',
                 'departamento' => 'DCC',
                 'descricao_atividade' => 'DCC',
@@ -76,7 +76,7 @@ class ReservaTableSeeder extends Seeder
                 
                 'nome_atividade' => 'atividade 5',
                 'nome_solicitante' => 'Marcelo5',
-                'e-mail' => 'marcelo5@',
+                'email' => 'marcelo5@',
                 'telefone' => '00000000000',
                 'departamento' => 'DCC',
                 'descricao_atividade' => 'DCC',

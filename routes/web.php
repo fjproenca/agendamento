@@ -17,6 +17,8 @@ Route::get('/', function () {
 
 Route::get('/equipamentos', 'EquipamentosController@index')->name('equipamentos_home');
 
+Route::get('/reserva', 'ReservaController@index')->name('reserva_home');
+
 Route::get('/equipamentos/criar', 'EquipamentosController@create')->name('criar_equipamento');
 
 Route::post('/equipamentos/criar', 'EquipamentosController@store');
@@ -28,3 +30,5 @@ Route::get('/equipamentos/atualizar/{id_equipamento}', 'EquipamentosController@e
 Route::put('/equipamentos/atualizar/{id_equipamento}', 'EquipamentosController@update')->name('atualizar_equipamento');
 
 Route::delete('/equipamentos/excluir/{id_equipamento}', 'EquipamentosController@destroy');
+
+Route::get('/reserva/atualizar/{id_reserva}', 'ReservaController@edit')->name('form_editar_equipamento');
